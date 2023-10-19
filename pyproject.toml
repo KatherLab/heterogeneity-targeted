@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "heterogeneity-targeted"
+version = "0.1.0"
+requires-python = ">=3.9"
+authors = [
+    { name="Didem Çifçi", email="didemcifci01@gmail.com" },
+]
+description = "Targeted heterogeneity measurement based on marugoto binary mutation classification output"
+#readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: POSIX :: Linux",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+]
+dependencies = [
+    "lifelines~=0.27",
+    "matplotlib~=3.8",
+    "numpy~=1.26",
+    "pandas~=2.1",
+    "pathlib~=1.0"
+]
